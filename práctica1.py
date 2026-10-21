@@ -34,3 +34,11 @@ for n in contar:
 nombre = input("Nombre: ")
 edad = int(input("Edad: "))
 print("Hola" + nombre + "el año que viene vas a tener " + str(edad+1) + " años")
+
+#Ejercicio 7
+nums = [10,20,30]
+for n in nums:
+    print(n/2)
+print(len(nums))
+
+

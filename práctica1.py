@@ -29,3 +29,8 @@ for n in contar:
         print("Salteado")
     else:
         print(n)
+
+#Ejercicio 6
+nombre = input("Nombre: ")
+edad = int(input("Edad: "))
+print("Hola" + nombre + "el año que viene vas a tener " + str(edad+1) + " años")

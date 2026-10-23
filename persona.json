@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Fabri",
+    "edad": 21,
+    "ciudad": "Córdoba"
+  },
+  {
+    "nombre": "Fabri1",
+    "edad": 21,
+    "ciudad": "Jujuy"
+  },
+  {
+    "nombre": "Fabri2",
+    "edad": 24,
+    "ciudad": "Salta"
+  },
+  {
+    "nombre": "Fabri3",
+    "edad": 23,
+    "ciudad": "BsAs"
+  }
+]

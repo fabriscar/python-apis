@@ -40,3 +40,13 @@ with open("personas.json", "w", encoding="utf-8") as f:
 with open("resumen.txt", "w", encoding="utf-8") as f:
     for p in datos:
         f.write(f"{p['nombre']} ({p['edad']}) - {p['ciudad']}\n")
+
+#Ejercicio cierre
+with open("persona.json", "w", encoding="utf-8") as f:
+    json.dump(personas, f, indent=2, ensure_ascii=False)
+
+with open("personas.json", "r", encoding = "utf-8") as f:
+    dato = json.load(f)
+
+for p in dato:
+    print(p["ciudad"])

@@ -69,9 +69,10 @@ print(promedio_notas(alumnos))
 
 #Ejercicio cierre de clase
 def maxima(dicc):
+    maxima = 0
     for i in dicc:
-        if i["edad"] > i["edad"]:
-            return "Es máximo"
-    return "No es maximo"
+        if i["edad"] > maxima:
+            maxima = i["edad"]
+    return maxima
 
 

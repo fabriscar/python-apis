@@ -59,4 +59,17 @@ with open("resumen.txt", "w", encoding="utf-8") as f:
             v += 1
 print(f"Había {str(t)} personas, {str(v)} válidas")
 
+#Ejercicios de cierre
+def div(a, b):
+    try:
+        return a/b
+    except ZeroDivisionError:
+        return None
+def leer(ruta):
+    try:
+        with open(ruta, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("Archivo inválido")
+        return []
     

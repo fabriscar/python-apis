@@ -8,5 +8,10 @@
     "consulta": "2026-11-10T11:43:22.990324",
     "temperatura": 23.1,
     "viento": 7.6
+  },
+  {
+    "consulta": "2026-11-11T16:13:34.483278",
+    "temperatura": 30.0,
+    "viento": 5.2
   }
 ]

@@ -27,7 +27,6 @@ try:
     }
     historial = leer_json("clima.json")      # lee lo que ya había (o [] si no existe)
     historial.append(registro)               # agrega la consulta nueva
-    # acá va el with open(... "w" ...) con json.dump(historial, f, indent=2, ensure_ascii=False)
     with open("clima.json", "w", encoding="utf-8") as f:
         json.dump(historial, f, indent=2, ensure_ascii=False)
     print(registro)
